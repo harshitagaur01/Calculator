@@ -1,0 +1,51 @@
+
+.buttons button{
+    width:60px;
+    height: 60px;
+    border-radius: 30px;
+    border-style: none;
+    margin:5px;
+}
+.calci{
+    background-color: black;
+    width:310px;
+    margin:2vw;
+}
+.opr{
+    background-color: rgba(221, 150, 36, 0.977);
+    font-size: 20px;
+    color: white;
+}
+
+.opr:hover{
+    background-color: rgb(230, 149, 19);
+}
+
+.buttons{
+    max-width:300px;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 0.5%;
+    border-style: solid;
+    border-radius:25px;
+    border-width: 0.5px;
+}
+
+#display{
+    max-width:300px;
+    height:115px;
+    background:black;
+    border-radius: 25px;
+    margin-bottom:2px;
+}
+
+#display input{
+    background: #626161;
+    margin:7%;
+    width:250px;
+    height:50px;
+    border-style: none;
+    color: rgb(10, 9, 9);
+    font-size:25px;
+    overflow: scroll;
+}
